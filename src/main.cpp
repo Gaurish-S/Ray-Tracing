@@ -1,8 +1,9 @@
 #include <iostream>
+#include <GL/glew.h>            // Include GLEW first!
+#include <GLFW/glfw3.h>         // GLFW headers
 #include "imgui.h"
-#include "imgui_impl_glfw.cpp"
-#include "imgui_impl_opengl3.cpp"
-#include <GLFW/glfw3.h>
+#include "imgui_impl_glfw.h"
+#include "imgui_impl_opengl3.h"
 
 static void glfw_error_callback(int error, const char* description)
 {
